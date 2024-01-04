@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react_upload/static/css/main.dd179e8a.css",
+    "main.js": "/react_upload/static/js/main.3ff98068.js",
+    "static/media/boy.webp": "/react_upload/static/media/boy.4210aa5f24afb5d4c030.webp",
+    "static/media/Flag_of_Uganda.svg.png": "/react_upload/static/media/Flag_of_Uganda.svg.9e27888495a880bbf9ac.png",
+    "static/media/usa-flag1728.jpg": "/react_upload/static/media/usa-flag1728.f66a78f930e10f15776a.jpg",
+    "index.html": "/react_upload/index.html",
+    "main.dd179e8a.css.map": "/react_upload/static/css/main.dd179e8a.css.map",
+    "main.3ff98068.js.map": "/react_upload/static/js/main.3ff98068.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd179e8a.css",
+    "static/js/main.3ff98068.js"
+  ]
+}
