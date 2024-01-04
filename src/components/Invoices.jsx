@@ -18,7 +18,10 @@ export const Invoices = () => {
         <span className='slash'>/</span>
         <span className='invoice-name'>Invoices</span>
       </div>
+
+
       <div >
+
         <div className='mother'>
           <span>Invoices</span>
           <div className='mother-child'>
@@ -26,26 +29,37 @@ export const Invoices = () => {
             <span className='child-text'>New Invoice</span>
           </div>
         </div>
+
         <div className='invoice-table'>
-          <div>
-            <input type="search" className='invoice-input' placeholder='Search invoices' />
-            <IoIosSearch className='search-icon' />
+          <div className='no-label'>
+
+            <div>
+              <input type="search" className='invoice-input' placeholder='Search invoices' />
+              <IoIosSearch className='search-icon' />
+            </div>
+
+
+            <div>
+              <select className='invoice-input'>
+                <option>All Invoices</option>
+                <option value="">Invoices</option>
+                <option value="">Invoices</option>
+              </select>
+            </div>
           </div>
-          <div>
-            <select className='invoice-input'>
-              <option>All Invoices</option>
-              <option value="">Invoices</option>
-              <option value="">Invoices</option>
-            </select>
+
+          <div className='with-label'>
+            <div className='date-input'>
+              <label>From</label>
+              <input type="date" className='invoice-input' />
+            </div>
+
+            <div className='date-input'>
+              <label>To</label>
+              <input type="date" className='invoice-input' />
+            </div>
           </div>
-          <div className='date-input'>
-            <label>From</label>
-            <input type="date" className='invoice-input' />
-          </div>
-          <div className='date-input'>
-            <label>To</label>
-            <input type="date" className='invoice-input' />
-          </div>
+
         </div>
         <div className='table'>
           <table cellPadding={0} cellSpacing={0}>
